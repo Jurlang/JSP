@@ -10,5 +10,6 @@
 <body>
     <p>jsp전용 디렉토리 index 파일입니다. ^^</p>
     <p>이것은 tomcat 서버로 작동됩니다.</p>
+    <p>github 수정 테스트</p>
 </body>
 </html>
