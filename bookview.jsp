@@ -9,7 +9,7 @@
 	   bookid = "0";
    ResultSet myResultSet = stmt.executeQuery("SELECT * FROM Book WHERE bookid='"+bookid+"'");
    if(bookid.equals("0")) {
-	   %>
+%>
 	   <html>
 	   <head>
 	   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -68,12 +68,12 @@
 	            </td>
 	         </tr>
 	      </table>
-	      <%
+<%
       
    }
    else{
 	   myResultSet.next();
-	   %>
+%>
 	   <html>
 	   <head>
 	   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -132,11 +132,10 @@
 	            </td>
 	         </tr>
 	      </table>
-	      <%
-	   
+<%
    }
    stmt.close();
    dbconn.close();
-   %>
+%>
 </body>
 </html>
